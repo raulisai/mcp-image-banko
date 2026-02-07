@@ -11,6 +11,21 @@ A Custom MCP Server that provides tools to search for images from multiple sourc
 
 ## Setup
 
+0.  **crear en enveiroment .venv*
+
+    ```bash
+    python -m venv .venv
+    ```
+    iniciar el enveiroment
+
+    ```bash
+    .venv\Scripts\activate
+    ```
+    windows
+    ```bash
+    source .venv/bin/activate
+    ```
+
 1.  **Install Dependencies**:
     ```bash
     pip install -r requirements.txt
