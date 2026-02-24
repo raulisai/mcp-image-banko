@@ -22,16 +22,11 @@ Si ya tienes Python instalado, puedes configurar todo (entorno, API keys, MCP y 
    cd mcp-image-banko
    ```
 
-2. **Crea el entorno virtual:**
+2. **Ejecuta el script de instalación automática:**
    ```bash
-   python -m venv .venv
+   python3 setup.py
    ```
-
-3. **Ejecuta el script de instalación automática:**
-   ```bash
-   python setup.py
-   ```
-   *Este script te pedirá tus llaves de API y configurará automáticamente Antigravity y la Skill maestra.*
+   *Este script hará todo por ti: encontrará una versión compatible de Python (3.10+), creará el entorno virtual, instalará las dependencias y configurará Antigravity con tus API Keys.*
 
 ---
 
